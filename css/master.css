@@ -1,5 +1,5 @@
 
- 
+
 .header{
   background: rgb(53, 0, 182);
 }
@@ -13,7 +13,7 @@
 .iconProfile{
   width: 20px;
   margin-top: -5px;
-} 
+}
 .cardType li{
 	background:white;
 	padding:0.5%;
@@ -33,14 +33,14 @@
 .panelList li{
 margin-right:0.4%;
 width:17%;
-text-align:center; 
+text-align:center;
 }
 .panelList li a{
 	color:white;
 	padding-top:5%;
 	padding-bottom:5%;
 	background: rgb(53, 0, 182);
-} 
+}
 
 .BodyContent{
 	width:90%;
@@ -54,7 +54,7 @@ text-align:center;
   line-height: 1.428571429;
   border-radius: 50%;
   color:white;
-  font-weight:bold; 
+  font-weight:bold;
 }
 .headerTransito{
 	background:#f2f2f2;
@@ -104,7 +104,7 @@ text-align:center;
 	border-radius:10px 10px 0% 0%;
 	color:#3500b6;
 	margin-bottom:-20px;
-	
+
 }
 .iconChat{
 	width:30%;
@@ -121,11 +121,11 @@ text-align:center;
 	padding-bottom:0.5%;
 	border-radius:10px 10px 0% 0%;
 	color:#3500b6;
-	
+
 }
 .formBackground input{
-	
-	
+
+
 	color:rgb(53, 0, 182);
 	background:#e9e9f1;
 }
@@ -166,23 +166,23 @@ text-align:center;
 	padding-right:15%;
 	font-size:2em;
 	color:#3500b6;
-} 
+}
 #inputDetalle{
 	background: url(../img/detalle.png) no-repeat scroll 1px 1px;
 	padding-left:110px;
 	background-color:#e9e9f1;
 }
-.formBackground #inputSearch{ 
+.formBackground #inputSearch{
 	background: url(../img/search.png) no-repeat scroll 5px -8px;
 	background-color:#3500b6;
 	color:white;
 	font-weight:bold;
 	font-size:1.2em;
-	padding-left:8%;
+	padding-left:100px;
 	height:50px;
 }
 @media only screen and (max-width: 990px) {
-		
+
 	.chatBtn2{
 		float:right;
 		top:-63px;
@@ -194,7 +194,7 @@ text-align:center;
 		padding-bottom:0.5%;
 		border-radius:10px 10px 0% 0%;
 		color:#3500b6;
-		
+
 	}
     .tableBig2 {
         display: none;
@@ -203,17 +203,15 @@ text-align:center;
 	margin-right:0.4%;
 	width:32.5%;
 	text-align:center;
-	
+
 	}
-	
+
 .panelList li a{
 	color:white;
 	height:50px;
 	padding-top:0%;
 	padding-bottom:0%;
 	background: rgb(53, 0, 182);
-} 
-	
 }
 
-	
+}
