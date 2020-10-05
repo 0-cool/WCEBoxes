@@ -1,0 +1,219 @@
+
+ 
+.header{
+  background: rgb(53, 0, 182);
+}
+.header .navbar{
+  background: rgb(53, 0, 182);
+}
+.btnCompra{
+  color: rgb(53, 0, 182);
+  font-weight: bold;
+}
+.iconProfile{
+  width: 20px;
+  margin-top: -5px;
+} 
+.cardType li{
+	background:white;
+	padding:0.5%;
+	margin-right:1%;
+}
+.cardType li img{
+	width:100%;
+}
+.cardType .linkColor{
+	color:blue;
+}
+.panelList{
+	background:transparent;
+	position: relative;
+	z-index:1;
+}
+.panelList li{
+margin-right:0.4%;
+width:17%;
+text-align:center; 
+}
+.panelList li a{
+	color:white;
+	padding-top:5%;
+	padding-bottom:5%;
+	background: rgb(53, 0, 182);
+} 
+
+.BodyContent{
+	width:90%;
+}
+.circleButton span {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 4.5%;
+  font-size: 15px;
+  line-height: 1.428571429;
+  border-radius: 50%;
+  color:white;
+  font-weight:bold; 
+}
+.headerTransito{
+	background:#f2f2f2;
+}
+.tdBig{
+	width:60%;
+	text-align:center;
+}
+.borderless td, .borderless th {
+    border: none;
+}
+.tableTransac tr td{
+	text-align:center;
+}
+.beforeFooter{
+	list-style-type:none;
+	text-align:left;
+}
+.beforeFooter li{
+	color:rgb(53, 0, 182)
+}
+.beforeFooter li a{
+	color:rgb(53, 0, 182)
+}
+.textFooter{
+	background:rgb(53, 0, 182);
+	text-align:center;
+	color:white;
+	padding:0.5%;
+	position:absolute;
+	width:100%;
+}
+.textFooter a{
+	color:#02a7e4;
+	font-weight:bold;
+}
+
+.chatBtn{
+	float:right;
+	font-size:2em;
+	position:relative;
+	top:-60px;
+	padding-left:4%;
+	padding-right:4%;
+	padding-top:0.5%;
+	padding-bottom:2%;
+	border-radius:10px 10px 0% 0%;
+	color:#3500b6;
+	margin-bottom:-20px;
+	
+}
+.iconChat{
+	width:30%;
+	margin-right:7%;
+}
+.chatBtn2{
+	float:right;
+	top:-93px;
+	font-size:2em;
+	position:relative;
+	padding-left:4%;
+	padding-right:4%;
+	padding-top:0.5%;
+	padding-bottom:0.5%;
+	border-radius:10px 10px 0% 0%;
+	color:#3500b6;
+	
+}
+.formBackground input{
+	
+	
+	color:rgb(53, 0, 182);
+	background:#e9e9f1;
+}
+.formBackground select{
+	background:#e9e9f1;
+	color:rgb(53, 0, 182);
+}
+.totalAproximado{
+	border: 1px solid #e9e9f1;
+	padding-bottom:3%;
+}
+.totalAproximado .cabecera{
+	text-align:center;
+	background:#e9e9f1;
+	margin-bottom:3%;
+}
+.totalAproximado .cabecera span{
+	font-weight:bold;
+	font-size:2em;
+}
+.totalAproximado ul{
+	list-style:none;
+}
+.totalAproximado ul li h3{
+	padding-bottom:5%;
+}
+.totalAproximado .spaceList li{
+	padding-top:3%;
+}
+.btnComprar{
+	text-align:center;
+	margin-top:3%;
+	margin-bottom:-3%;
+}
+.btnComprar button{
+	font-weight:bold;
+	padding-left:15%;
+	padding-right:15%;
+	font-size:2em;
+	color:#3500b6;
+} 
+#inputDetalle{
+	background: url(../img/detalle.png) no-repeat scroll 1px 1px;
+	padding-left:110px;
+	background-color:#e9e9f1;
+}
+.formBackground #inputSearch{ 
+	background: url(../img/search.png) no-repeat scroll 5px -8px;
+	background-color:#3500b6;
+	color:white;
+	font-weight:bold;
+	font-size:1.2em;
+	padding-left:8%;
+	height:50px;
+}
+@media only screen and (max-width: 990px) {
+		
+	.chatBtn2{
+		float:right;
+		top:-63px;
+		font-size:2em;
+		position:relative;
+		padding-left:4%;
+		padding-right:4%;
+		padding-top:0.5%;
+		padding-bottom:0.5%;
+		border-radius:10px 10px 0% 0%;
+		color:#3500b6;
+		
+	}
+    .tableBig2 {
+        display: none;
+    }
+	.panelList li{
+	margin-right:0.4%;
+	width:32.5%;
+	text-align:center;
+	
+	}
+	
+.panelList li a{
+	color:white;
+	height:50px;
+	padding-top:0%;
+	padding-bottom:0%;
+	background: rgb(53, 0, 182);
+} 
+	
+}
+
+	
