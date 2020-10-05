@@ -1,7 +1,10 @@
 
-
 .header{
   background: rgb(53, 0, 182);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99999999;
 }
 .header .navbar{
   background: rgb(53, 0, 182);
@@ -96,14 +99,12 @@ text-align:center;
 	float:right;
 	font-size:2em;
 	position:relative;
-	top:-60px;
+	top:-58px;
 	padding-left:4%;
 	padding-right:4%;
 	padding-top:0.5%;
-	padding-bottom:2%;
 	border-radius:10px 10px 0% 0%;
 	color:#3500b6;
-	margin-bottom:-20px;
 
 }
 .iconChat{
@@ -127,7 +128,7 @@ text-align:center;
 
 
 	color:rgb(53, 0, 182);
-	background:#e9e9f1;
+	background-color:#e9e9f1;
 }
 .formBackground select{
 	background:#e9e9f1;
@@ -172,6 +173,21 @@ text-align:center;
 	padding-left:110px;
 	background-color:#e9e9f1;
 }
+
+
+.formBackground #inputLB{
+	background: url(../img/lb.png) no-repeat scroll 90% 0px;
+	background-color:#e9e9f1;
+}
+.formBackground #inputPrecio{
+	background: url(../img/lb.png) no-repeat scroll 0% 1200px;
+	background-color:#e9e9f1;
+}
+.formBackground #inputAddress{
+	background: url(../img/lb.png) no-repeat scroll 0% 1200px;
+	background-color:#e9e9f1;
+}
+
 .formBackground #inputSearch{
 	background: url(../img/search.png) no-repeat scroll 5px -8px;
 	background-color:#3500b6;
@@ -181,8 +197,26 @@ text-align:center;
 	padding-left:100px;
 	height:50px;
 }
-@media only screen and (max-width: 990px) {
 
+.contBody{
+  margin-top:10%;
+}
+@media only screen and (max-width: 990px) {
+  .contBody{
+    margin-top:20%;
+  }
+  .chatBtn{
+  	float:right;
+  	font-size:2em;
+  	position:relative;
+  	top:-48px;
+  	padding-left:4%;
+  	padding-right:4%;
+  	padding-top:0.5%;
+  	border-radius:10px 10px 0% 0%;
+  	color:#3500b6;
+
+  }
 	.chatBtn2{
 		float:right;
 		top:-63px;
